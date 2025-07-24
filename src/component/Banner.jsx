@@ -1,6 +1,7 @@
 
 
 import { useEffect, useState } from "react";
+import Navbar from "./Navbar";
 
 const images = [
   { src: "images/shoes (1).jpg", type: "mobile" },
@@ -21,7 +22,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative h-screen border-2 border-red-700 overflow-hidden">
+      <div className="relative h-screen border-2 border-red-700 overflow-hidden">
       {/* Background Images */}
       {images.map((img, index) => (
         <img
@@ -41,6 +42,7 @@ const Banner = () => {
           Shop Now
         </button>
       </div>
+      <Navbar/>
     </div>
   );
 };
