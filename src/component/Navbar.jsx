@@ -7,8 +7,11 @@ function Navbar() {
       </div>
 
       <nav>
-        
-
+        <ol>
+          <span></span>
+          <span></span>
+          <span></span>
+        </ol>
 
         <ul>
           <li>HOME</li>
