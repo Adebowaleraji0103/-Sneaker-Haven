@@ -36,7 +36,7 @@ const Banner = () => {
 
       {/* Static Text Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black/40">
-        <h1 className="font-bold text-[4rem]">Make your move more confortable</h1>
+        <h1 className="font-bold text-[4rem] leading-18">Make your move more confortable</h1>
         <p className="text-lg md:text-xl mb-6">
           Find your style. Elevate your look.
         </p>
