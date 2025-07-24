@@ -37,10 +37,7 @@ const Banner = () => {
       {/* Static Text Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black/40">
         <h1 className="font-bold text-[4rem] leading-18">Make your move more confortable</h1>
-        <p className="text-lg md:text-xl mb-6">
-          Find your style. Elevate your look.
-        </p>
-        <button className="px-6 py-3 bg-[#2ecc71] rounded-full text-white font-semibold hover:bg-[#27ae60] transition duration-300">
+        <button className="bg-white py-2 px-4 text-[19px] text-black font-semibold rounded-[13px]">
           Explore more
         </button>
       </div>
