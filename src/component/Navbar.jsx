@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <header className="absolute flex">
+    <header className="absolute flex justify-between w-full">
       <div className="flex">
         <img src="images/adidas.png" alt="" />
         <h2>Smart shoe</h2>
