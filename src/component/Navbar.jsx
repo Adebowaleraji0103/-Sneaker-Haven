@@ -7,6 +7,9 @@ function Navbar() {
       </div>
 
       <nav>
+        
+
+
         <ul>
           <li>HOME</li>
           <li>SHOP</li>
