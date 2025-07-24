@@ -41,7 +41,7 @@ const Banner = () => {
           Find your style. Elevate your look.
         </p>
         <button className="px-6 py-3 bg-[#2ecc71] rounded-full text-white font-semibold hover:bg-[#27ae60] transition duration-300">
-          Shop Now
+          Explore more
         </button>
       </div>
       <Navbar />
