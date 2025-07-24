@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <header>
+    <header className="absolute">
       <div>
         <img src="images/adidas.png" alt="" />
         <h2>Smart shoe</h2>

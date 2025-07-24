@@ -22,14 +22,14 @@ const Banner = () => {
   }, []);
 
   return (
-      <div className="relative h-screen border-2 border-red-700 overflow-hidden">
+      <div className="relative h-screen overflow-hidden">
       {/* Background Images */}
       {images.map((img, index) => (
         <img
           key={index}
           src={img.src}
           alt="slideshow images"
-          className={`absolute ${img.type === "mobile" ? "" : "hidden"} border-10 inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out
+          className={`absolute ${img.type === "mobile" ? "" : "hidden"} inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out
           ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
         />
       ))}
