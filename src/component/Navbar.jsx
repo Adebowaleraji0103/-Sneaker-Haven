@@ -6,25 +6,23 @@ function Navbar() {
         <h2>Smart shoe</h2>
       </div>
 
-      <nav className="flex gap-10 flex-row-reverse md:gap-[10rem] ">
+      <nav className="flex gap-10  md:gap-[17rem] md:flex-row-reverse">
+        <div>
+          <img src="images/cart.png" alt="" />
+        </div>
+
         <ol className="flex flex-col gap-1 md:hidden">
           <span className="w-[30px] h-[4px] block bg-white"></span>
           <span className="w-[30px] h-[4px] block bg-white"></span>
           <span className="w-[30px] h-[4px] block bg-white"></span>
         </ol>
 
-        <div>
-          <ul className="hidden md:flex gap-4">
-            <li>HOME</li>
-            <li>SHOP</li>
-            <li>ABOUT</li>
-            <li>COLLECTION</li>
-          </ul>
-
-          <div>
-            <img src="images/cart.png" alt="" />
-          </div>
-        </div>
+        <ul className="hidden md:flex gap-4">
+          <li>HOME</li>
+          <li>SHOP</li>
+          <li>ABOUT</li>
+          <li>COLLECTION</li>
+        </ul>
       </nav>
     </header>
   );
