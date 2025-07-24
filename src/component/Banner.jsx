@@ -1,5 +1,3 @@
-
-
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 
@@ -22,27 +20,31 @@ const Banner = () => {
   }, []);
 
   return (
-      <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden">
       {/* Background Images */}
       {images.map((img, index) => (
         <img
           key={index}
           src={img.src}
           alt="slideshow images"
-          className={`absolute ${img.type === "mobile" ? "" : "hidden"} inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out
+          className={`absolute ${
+            img.type === "mobile" ? "" : "hidden"
+          } inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out
           ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
         />
       ))}
 
       {/* Static Text Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black/40">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Our Store</h1>
-        <p className="text-lg md:text-xl mb-6">Find your style. Elevate your look.</p>
+        <h1 className="font-bold text-[3rem] px-[2rem]">Make your move more confortable</h1>
+        <p className="text-lg md:text-xl mb-6">
+          Find your style. Elevate your look.
+        </p>
         <button className="px-6 py-3 bg-[#2ecc71] rounded-full text-white font-semibold hover:bg-[#27ae60] transition duration-300">
           Shop Now
         </button>
       </div>
-      <Navbar/>
+      <Navbar />
     </div>
   );
 };
