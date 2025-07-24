@@ -20,7 +20,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden mb-16">
       {/* Background Images */}
       {images.map((img, index) => (
         <img
