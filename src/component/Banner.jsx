@@ -32,13 +32,13 @@ const Banner = () => {
       ))}
 
       {/* Static Text Content */}
-      {/* <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black/40">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black/40">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Our Store</h1>
         <p className="text-lg md:text-xl mb-6">Find your style. Elevate your look.</p>
         <button className="px-6 py-3 bg-[#2ecc71] rounded-full text-white font-semibold hover:bg-[#27ae60] transition duration-300">
           Shop Now
         </button>
-      </div> */}
+      </div>
     </div>
   );
 };
