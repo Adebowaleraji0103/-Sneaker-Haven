@@ -1,9 +1,9 @@
 function Navbar() {
   return (
-    <header className="absolute flex justify-between px-[1rem] py-6 w-full text-white font-bold text-[16px] md:px-[6rem]">
-      <div className="flex gap-3">
+    <header className="absolute flex justify-between items-center px-[1rem] py-6 w-full text-white font-semibold text-[16px] md:px-[6rem]">
+      <div className="flex gap-3 ">
         <img src="images/adidas.png" alt="" />
-        <h2>Smart shoe</h2>
+        <h2 className="text-[25px]">Smart shoe</h2>
       </div>
 
       <nav className="flex gap-10  md:gap-[17rem] md:flex-row-reverse">
@@ -17,7 +17,7 @@ function Navbar() {
           <span className="w-[30px] h-[4px] block bg-white"></span>
         </ol>
 
-        <ul className="hidden md:flex gap-10">
+        <ul className="hidden md:flex gap-10 ">
           <li>HOME</li>
           <li>SHOP</li>
           <li>ABOUT</li>
