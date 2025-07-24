@@ -1,12 +1,12 @@
 function Navbar() {
   return (
     <header className="absolute flex justify-between w-full">
-      <div className="flex">
+      <div className="flex gap-3">
         <img src="images/adidas.png" alt="" />
         <h2>Smart shoe</h2>
       </div>
 
-      <nav className="flex">
+      <nav className="flex gap-10">
         <ol className="flex flex-col gap-1">
           <span className="w-[30px] h-[4px] block bg-black"></span>
           <span className="w-[30px] h-[4px] block bg-black"></span>
