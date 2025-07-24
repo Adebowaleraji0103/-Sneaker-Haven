@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 
 const images = [
-  { src: "images/shoes (1).jpg", type: "mobile" },
+  { src: "images/Component 2.png", type: "mobile" },
   { src: "images/shoes (2).jpg", type: "mobile" },
   { src: "images/shoes (3).jpg", type: "mobile" },
   { src: "images/shoes (4).jpg", type: "mobile" },
