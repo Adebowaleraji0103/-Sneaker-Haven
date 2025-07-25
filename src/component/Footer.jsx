@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div className="mb-70 flex flex-col justify-center text-center items-center">
-      <div className="flex flex-col gap-5">
+    <div className="mb-70 flex flex-col justify-between text-center   md: md:flex-row">
+      <div className="flex flex-col gap-5 md:flex-row md:gap-[7rem]">
         <div className="flex flex-col gap-3">
           <h1 className="text-[22px] font-bold ">Shops</h1>
           <ul>
