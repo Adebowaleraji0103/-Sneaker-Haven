@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="mb-70 flex flex-col justify-center text-center items-center">
       <div className="flex flex-col gap-5">
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-3">
           <h1 className="text-[22px] font-bold ">Shops</h1>
           <ul>
             <li>Men</li>
@@ -11,7 +11,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div className="flex flex-col gap-3">
           <h1 className="text-[22px] font-bold ">Connect</h1>
           <ul>
             <li>LinkedIn</li>
@@ -21,14 +21,14 @@ function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div className="flex flex-col gap-3">
           <h1 className="text-[22px] font-bold ">Connect</h1>
           <p>hello.bright@gmail.com</p>
           <img src="images/adidas.png" alt="" />
         </div>
       </div>
 
-      <div>
+      <div className="flex flex-col gap-3">
         <h1 className="text-[22px] font-bold ">Stay in touch</h1>
         <div>
           <p> Email address </p>
