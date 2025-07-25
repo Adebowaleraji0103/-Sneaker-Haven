@@ -23,7 +23,7 @@ function Footer() {
 
         <div>
           <h1>Connect</h1>
-          <li>hello.bright@gmail.com</li>
+          <p>hello.bright@gmail.com</p>
           <img src="images/adidas.png" alt="" />
         </div>
       </div>
@@ -34,7 +34,7 @@ function Footer() {
           <p> Email address </p>
           <img src="images/Vector.png" alt="" />
         </div>
-        <span></span>
+        <span className="bg-black h-[1px] inline-block w-[200px]"></span>
       </div>
     </div>
   );
