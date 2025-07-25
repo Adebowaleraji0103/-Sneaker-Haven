@@ -2,8 +2,9 @@ import About from "./component/About";
 import Banner from "./component/Banner";
 import Cartigories from "./component/Cartegories";
 import SlideCategories from "./component/SlideCategories";
-import NewArrival from "./component/NewArrival";
 import "swiper/css";
+import NewArrival from "./component/NewArrival";
+import FooterImage from "./component/FooterImage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Cartigories />
       <SlideCategories />
       <NewArrival/>
+      <FooterImage/>
     </div>
   );
 }
