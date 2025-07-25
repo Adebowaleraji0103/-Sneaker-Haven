@@ -1,6 +1,7 @@
 import About from "./component/About";
 import Banner from "./component/Banner";
 import Cartigories from "./component/Cartegories";
+import SlideCategories from "./component/SlideCategories";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Banner />
       <About />
       <Cartigories />
+      <SlideCategories />
     </div>
   );
 }

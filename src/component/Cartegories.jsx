@@ -1,4 +1,3 @@
-import SlideCategories from "./SlideCategories";
 
 function Cartigories() {
   return (
@@ -13,7 +12,6 @@ function Cartigories() {
         <img src="images/categories (1).png" alt="" />
       </div>
 
-      <SlideCategories/>
     </div>
   );
 }
