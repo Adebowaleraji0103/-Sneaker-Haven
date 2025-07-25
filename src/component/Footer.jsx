@@ -30,10 +30,11 @@ function Footer() {
 
       <div>
         <h1>Stay in touch</h1>
-
         <div>
-            
+          <p> Email address </p>
+          <img src="images/Vector.png" alt="" />
         </div>
+        <span></span>
       </div>
     </div>
   );
