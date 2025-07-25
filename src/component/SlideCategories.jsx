@@ -6,12 +6,12 @@ function SlideCategories() {
   return (
     <div className="bg-red-50">
       <Swiper>
-        {/* modules={{Autoplay}}
+        modules={[Autoplay]}
         spaceBetween={2}
         slidesPerView={1}
         loop={true}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
- */}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
+
 
         <SwiperSlide><img src="images/slider (1).png" alt="" /></SwiperSlide>
         <SwiperSlide><img src="images/slider (8).png" alt="" /></SwiperSlide>
