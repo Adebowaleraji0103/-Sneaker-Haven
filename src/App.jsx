@@ -2,6 +2,7 @@ import About from "./component/About";
 import Banner from "./component/Banner";
 import Cartigories from "./component/Cartegories";
 import SlideCategories from "./component/SlideCategories";
+import NewArrival from "./component/NewArrival";
 import "swiper/css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Cartigories />
       <SlideCategories />
+      <NewArrival/>
     </div>
   );
 }

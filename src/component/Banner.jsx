@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 
 const images = [
-  { src: "images/Component 2.png", type: "mobile" },
+  { src: "images/shoes (1).jpg", type: "mobile" },
   { src: "images/shoes (2).jpg", type: "mobile" },
   { src: "images/shoes (3).jpg", type: "mobile" },
   { src: "images/shoes (4).jpg", type: "mobile" },
@@ -20,7 +20,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative h-screen overflow-hidden mb-[7rem]">
+    <div className="relative h-screen overflow-hidden mb-[3rem] md:mb-[5rem]">
       {/* Background Images */}
       {images.map((img, index) => (
         <img
@@ -36,7 +36,9 @@ const Banner = () => {
 
       {/* Static Text Content */}
       <div className="absolute inset-0 flex flex-col gap-15 items-center justify-center text-white text-center bg-black/40">
-        <h1 className="font-bold text-[4rem] leading-18 md:text-[5rem] md:px-10 md:leading-21">Make your move more confortable</h1>
+        <h1 className="font-bold text-[4rem] leading-18 md:text-[5rem] md:px-10 md:leading-21">
+          Make your move more confortable
+        </h1>
         <button className="bg-white py-2 px-4 text-[19px] text-black font-semibold rounded-[13px]">
           Explore more
         </button>
