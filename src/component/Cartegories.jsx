@@ -1,3 +1,5 @@
+import SlideCategories from "./SlideCategories";
+
 function Cartigories() {
   return (
     <div className="mb-70 flex flex-col gap-10 px-[1.5rem] md:px-[5rem]">
@@ -10,6 +12,8 @@ function Cartigories() {
         <img src="images/categories (2).png" alt="" />
         <img src="images/categories (1).png" alt="" />
       </div>
+
+      <SlideCategories/>
     </div>
   );
 }
