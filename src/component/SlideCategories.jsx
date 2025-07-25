@@ -5,12 +5,14 @@ import { Autoplay } from "swiper/modules";
 function SlideCategories() {
   return (
     <div className="bg-red-50">
-      <Swiper>
-        modules={[Autoplay]}
+      <Swiper
+       modules={[Autoplay]}
         spaceBetween={2}
         slidesPerView={1}
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
+      >
+       
 
 
         <SwiperSlide><img src="images/slider (1).png" alt="" /></SwiperSlide>
