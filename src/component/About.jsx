@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="mb-[7rem] flex flex-col gap-6 px-[2rem] md:flex md:flex-row-reverse md:justify-center md:items-center md:px-[5rem] md:gap-[10rem]">
+    <div className="mb-[7rem] border-b-black border-b pb-[4rem] flex flex-col gap-6 px-[2rem] md:flex md:flex-row-reverse md:justify-center md:items-center md:px-[5rem] md:gap-[10rem]">
       <div className="flex flex-col gap-6 font-semibold text-[18px] md:w-[400px]">
         <h1 className="text-[23px] text-center md:text-[18px] md:text-left">About us</h1>
         <h2 className="text-[43px] leading-13 font-bold ">
