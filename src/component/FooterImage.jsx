@@ -1,6 +1,6 @@
 function FooterImage() {
   return (
-    <div className="mb-70 relative overflow-hidden">
+    <div className="mb-[4rem] relative overflow-hidden md:mb-[6rem]">
       <img src="images/a.png" alt="footerimage" className="w-full md:h-[650px] md:object-cover" />
 
       <div className="flex flex-col gap-5 absolute px-[1rem] text-[20px] inset-0 text-white text-center items-center justify-center md:text-[25px] md:gap-10">
