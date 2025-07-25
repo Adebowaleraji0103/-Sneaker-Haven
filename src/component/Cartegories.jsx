@@ -1,6 +1,6 @@
 function Cartigories () {
     return(
-        <div>
+        <div className="mb-70">
             <h1>Cartigories</h1>
         </div>
     )
