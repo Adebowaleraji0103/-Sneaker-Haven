@@ -1,9 +1,9 @@
 function Navbar() {
   return (
     <header className="absolute flex justify-between items-center px-[1rem] py-6 w-full text-white font-semibold text-[16px] md:px-[6rem]">
-      <div className="flex gap-3 ">
-        <img src="images/adidas.png" alt="" />
-        <h2 className="text-[25px]">Smart shoe</h2>
+      <div className="flex gap-2 md:gap-3 ">
+        <img src="images/adidas.png" alt=""/>
+        <h2 className="text-[18px] md:text-[25px]">Smart shoe</h2>
       </div>
 
       <nav className="flex gap-10  md:gap-[17rem] md:flex-row-reverse">
