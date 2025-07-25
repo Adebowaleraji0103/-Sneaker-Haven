@@ -12,9 +12,6 @@ function SlideCategories() {
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
       >
-       
-
-
         <SwiperSlide><img src="images/slider (1).png" alt="" /></SwiperSlide>
         <SwiperSlide><img src="images/slider (8).png" alt="" /></SwiperSlide>
         <SwiperSlide><img src="images/slider (7).png" alt="" /></SwiperSlide>
