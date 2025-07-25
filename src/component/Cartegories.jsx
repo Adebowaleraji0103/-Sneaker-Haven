@@ -1,6 +1,6 @@
 function Cartigories () {
     return(
-        <div className="mb-70 px-[2rem]">
+        <div className="mb-70 px-[2rem] md:px-[5rem]">
             <h1 className="text-[40px] font-bold text-center md:text-[49px] md:text-left">Categories</h1>
         </div>
     )
