@@ -10,7 +10,7 @@ function FooterImage() {
         <p className>
           Every membership will get a 40% discount for the first purchase
         </p>
-        <button className="bg-white text-black text-[17px] rounded-[7px] px-6 py-2 font-bold mt-6">
+        <button className="bg-white text-black text-[17px] rounded-[7px] px-6 py-2 font-bold mt-6 md:text-[21]">
           Join now
         </button>
       </div>
