@@ -4,11 +4,11 @@ import { Autoplay } from "swiper/modules";
 
 function SlideCategories() {
   return (
-    <div className="bg-red-50">
+    <div className="md:flex">
       <Swiper
        modules={[Autoplay]}
         spaceBetween={2}
-        slidesPerView={1}
+        slidesPerView={2}
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
       >
