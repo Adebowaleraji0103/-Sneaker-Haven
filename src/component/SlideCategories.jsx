@@ -4,13 +4,19 @@ import { Autoplay } from "swiper/modules";
 
 function SlideCategories() {
   return (
-    <div className="md:flex">
+    <div className="px-[5px] md:px-[6rem] mb-70">
       <Swiper
        modules={[Autoplay]}
         spaceBetween={2}
-        slidesPerView={2}
+        slidesPerView={1}
         loop={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
+         breakpoints={{
+    610: {
+      slidesPerView: 2, // md: and above
+    },
+     }}
+        
       >
         <SwiperSlide><img src="images/slider (1).png" alt="" /></SwiperSlide>
         <SwiperSlide><img src="images/slider (8).png" alt="" /></SwiperSlide>
