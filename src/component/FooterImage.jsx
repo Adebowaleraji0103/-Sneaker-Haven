@@ -1,7 +1,7 @@
 function FooterImage () {
     return(
-        <div>
-
+        <div className="mb-70">
+            <img src="images/footerimage.png" alt="footerImage" />
         </div>
     )
 }
