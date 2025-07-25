@@ -4,7 +4,7 @@ import { Autoplay } from "swiper/modules";
 
 function SlideCategories() {
   return (
-    <div className="px-[5px] md:px-[6rem] mb-[2rem] md:mb-[5rem]">
+    <div className="px-[5px] md:px-[6rem] mb-[4rem] md:mb-[7rem]">
       <Swiper
        modules={[Autoplay]}
         spaceBetween={2}

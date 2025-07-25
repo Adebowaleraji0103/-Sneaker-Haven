@@ -1,8 +1,8 @@
 function NewArrival() {
   return (
-    <div className="mb-70 flex flex-col gap[2rem]">
+    <div className="mb-70 flex flex-col gap[2rem] px-[5px] md:px-[6rem]">
       <h1 className="text-[40px] font-bold text-center md:text-[49px] md:text-left">New Arrival</h1>
-      <div className="w-full">
+      <div className="w-full md:flex md:flex-row">
         <img src="images/newarrival (3).png" alt="" className="w-full" />
         <img src="images/newarrival (2).png" alt="" className="w-full" />
         <img src="images/newarrival (1).png" alt="" className="w-full" />
