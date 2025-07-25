@@ -1,9 +1,9 @@
 function Footer() {
   return (
-    <div className="mb-70">
-      <div>
-        <div>
-          <h1>Shops</h1>
+    <div className="mb-70 flex flex-col justify-center text-center items-center">
+      <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5">
+          <h1 className="text-[22px] font-bold ">Shops</h1>
           <ul>
             <li>Men</li>
             <li>Women</li>
@@ -12,7 +12,7 @@ function Footer() {
         </div>
 
         <div>
-          <h1>Connect</h1>
+          <h1 className="text-[22px] font-bold ">Connect</h1>
           <ul>
             <li>LinkedIn</li>
             <li>Facebook</li>
@@ -22,14 +22,14 @@ function Footer() {
         </div>
 
         <div>
-          <h1>Connect</h1>
+          <h1 className="text-[22px] font-bold ">Connect</h1>
           <p>hello.bright@gmail.com</p>
           <img src="images/adidas.png" alt="" />
         </div>
       </div>
 
       <div>
-        <h1>Stay in touch</h1>
+        <h1 className="text-[22px] font-bold ">Stay in touch</h1>
         <div>
           <p> Email address </p>
           <img src="images/Vector.png" alt="" />
