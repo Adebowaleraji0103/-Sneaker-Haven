@@ -5,6 +5,7 @@ import SlideCategories from "./component/SlideCategories";
 import "swiper/css";
 import NewArrival from "./component/NewArrival";
 import FooterImage from "./component/FooterImage";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SlideCategories />
       <NewArrival/>
       <FooterImage/>
+      <Footer/>
     </div>
   );
 }
