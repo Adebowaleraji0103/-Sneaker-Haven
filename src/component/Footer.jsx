@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="mb-70 flex flex-col text-center pb-10 md:justify-between md:px-[8rem] md: md:flex-row">
+    <div className="mb-70 flex flex-col gap-[5rem] text-center pb-10 md:justify-between md:px-[8rem] md: md:flex-row">
       <div className="flex flex-col gap-5 md:flex-row md:gap-[7rem]">
         <div className="flex flex-col gap-3">
           <h1 className="text-[22px] font-bold ">Shops</h1>
