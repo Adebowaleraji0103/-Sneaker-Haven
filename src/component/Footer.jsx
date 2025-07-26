@@ -24,7 +24,7 @@ function Footer() {
         <div className="flex flex-col gap-3">
           <h1 className="text-[22px] font-bold ">Connect</h1>
           <p className="flex flex-col gap-2 text-[14px] font-semibold">hello.bright@gmail.com</p>
-          <img src="images/vectorblack.png" alt="" className="color-black"/>
+          <img src="images/vectorblack.png" alt="" className=""/>
         </div>
       </div>
 
