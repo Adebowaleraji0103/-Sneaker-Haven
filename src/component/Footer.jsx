@@ -32,7 +32,7 @@ function Footer() {
         <h1 className="text-[22px] font-bold ">Stay in touch</h1>
         <div className="flex justify-center gap-[3rem] items-center">
           <p className="flex flex-col gap-2 text-[14px] font-semibold"> Email address </p>
-          <img src="images/Vector.png" alt="" className="color-black"/>
+          <img src="images/Vector.png" alt="" />
         </div>
         <span className="bg-black h-[1px] inline-block w-[200px]"></span>
       </div>
