@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex flex-col text-center pb-10 md:justify-between md:px-[8rem] md: md:flex-row">
+    <div className="mb-70 flex flex-col text-center pb-10 md:justify-between md:px-[8rem] md: md:flex-row">
       <div className="flex flex-col gap-5 md:flex-row md:gap-[7rem]">
         <div className="flex flex-col gap-3">
           <h1 className="text-[22px] font-bold ">Shops</h1>
@@ -32,7 +32,7 @@ function Footer() {
         <h1 className="text-[22px] font-bold ">Stay in touch</h1>
         <div className="flex justify-center gap-[3rem] items-center">
           <p className="flex flex-col gap-2 text-[14px] font-semibold"> Email address </p>
-          <img src="images/Vector.png" alt="" />
+          <img src="images/Vector.png" alt="" className="color-black"/>
         </div>
         <span className="bg-black h-[1px] inline-block w-[200px]"></span>
       </div>
