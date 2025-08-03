@@ -1,3 +1,5 @@
+import { LuMenu } from "react-icons/lu";
+
 function Navbar() {
   return (
     <header className="absolute flex justify-between items-center px-[1rem] py-6 w-full text-white font-semibold text-[16px] md:px-[6rem]">
@@ -12,9 +14,7 @@ function Navbar() {
         </div>
 
         <ol className="flex flex-col gap-1 md:hidden">
-          <span className="w-[30px] h-[4px] block bg-white"></span>
-          <span className="w-[30px] h-[4px] block bg-white"></span>
-          <span className="w-[30px] h-[4px] block bg-white"></span>
+          <LuMenu />
         </ol>
 
         <ul className="hidden md:flex gap-10 ">
