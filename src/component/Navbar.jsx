@@ -29,7 +29,7 @@ function Navbar() {
       </nav>
       {menuIsOpen && (
         <ul className="flex flex-col gap-[1.5rem] text-[14px] py-[2rem] absolute top-0 left-0 w-[45%] h-[30rem]  bg-[#445243] md:hidden">
-          <li>HOME</li>
+          <a href="#banner"><li className="hover:text-[lightgrey] cursor-pointer">HOME</li></a>
           <li>SHOP</li>
           <li>ABOUT</li>
           <li>COLLECTION</li>
