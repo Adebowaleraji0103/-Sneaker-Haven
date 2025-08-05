@@ -21,7 +21,7 @@ function Navbar() {
         </ol>
 
         <ul className="hidden md:flex gap-10">
-          <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
+          <a href="">h</a>
           <li className="hover:text-[lightgrey] cursor-pointer">SHOP</li>
           <li className="hover:text-[lightgrey] cursor-pointer">ABOUT</li>
           <li className="hover:text-[lightgrey] cursor-pointer"> COLLECTION</li>
