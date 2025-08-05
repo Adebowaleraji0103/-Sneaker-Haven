@@ -20,11 +20,11 @@ function Navbar() {
           <LuMenu onClick={()=> setMenuIsOpen (!menuIsOpen)} className="text-[20px]"/>
         </ol>
 
-        <ul className="hidden md:flex gap-10 ">
-          <li>HOME</li>
-          <li>SHOP</li>
-          <li>ABOUT</li>
-          <li>COLLECTION</li>
+        <ul className="hidden md:flex gap-10">
+          <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
+          <li className="hover:text-[lightgrey] cursor-pointer">SHOP</li>
+          <li className="hover:text-[lightgrey] cursor-pointer">ABOUT</li>
+          <li className="hover:text-[lightgrey] cursor-pointer"> COLLECTION</li>
         </ul>
       </nav>
       {menuIsOpen && (
