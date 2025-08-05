@@ -28,7 +28,7 @@ function Navbar() {
         </ul>
       </nav>
       {menuIsOpen && (
-        <ul className="flex flex-col gap-[1.5rem] text-[14px] py-[2rem] px-[1rem] absolute top-0 left-0 w-[35%] h-[30rem]  bg-transparent md:hidden">
+        <ul className="flex flex-col gap-[1.5rem] text-[14px] py-[2rem] px-[1rem] absolute top-0 left-0 w-[35%] h-[30rem]  bg-[#445243] md:hidden">
           <a href="#banner"><li className="hover:text-[lightgrey] cursor-pointer">HOME</li></a>
           <li>SHOP</li>
           <li>ABOUT</li>
