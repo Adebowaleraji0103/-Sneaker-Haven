@@ -30,9 +30,12 @@ function Navbar() {
            <a href="#banner">
             <li className="hover:text-[lightgrey] cursor-pointer">SHOP</li>
           </a>
-          <li className="hover:text-[lightgrey] cursor-pointer">SHOP</li>
-          <li className="hover:text-[lightgrey] cursor-pointer">ABOUT</li>
-          <li className="hover:text-[lightgrey] cursor-pointer"> COLLECTION</li>
+           <a href="#banner">
+            <li className="hover:text-[lightgrey] cursor-pointer">ABOUT</li>
+          </a>
+           <a href="#banner">
+            <li className="hover:text-[lightgrey] cursor-pointer">COLLECTION</li>
+          </a>
         </ul>
       </nav>
       {menuIsOpen && (
