@@ -39,7 +39,7 @@ function Navbar() {
             className="text-[24px] transition-all duration-300"
           />
 
-         <ul className="flex flex-col">
+         <ul className="flex flex-col ">
            <a href="#banner">
             <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
           </a>
