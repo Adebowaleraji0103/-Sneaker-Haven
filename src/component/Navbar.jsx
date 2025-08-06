@@ -33,7 +33,7 @@ function Navbar() {
         </ul>
       </nav>
       {menuIsOpen && (
-        <div className="flex flex-col gap-[1.5rem] text-[14px] py-[2rem] px-[1rem] absolute top-0 left-0 w-full h-[30rem] bg-[#445243] md:hidden">
+        <div className="flex justify-between flex-row-reverse gap-[1.5rem] text-[14px] py-[2rem] px-[1rem] absolute top-0 left-0 w-full h-[30rem] bg-[#445243] md:hidden">
           <IoMdClose
             onClick={() => setMenuIsOpen(false)}
             className="text-[24px] transition-all duration-300"
