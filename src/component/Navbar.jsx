@@ -31,20 +31,14 @@ function Navbar() {
         </ol>
 
         <ul className="hidden md:flex gap-10">
-          <a href="#banner">
-            <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
-          </a>
-          <a href="#arrival">
-            <li className="hover:text-[lightgrey] cursor-pointer">SHOP</li>
-          </a>
-          <a href="#about">
-            <li className="hover:text-[lightgrey] cursor-pointer">ABOUT</li>
-          </a>
-          <a href="#collection">
-            <li className="hover:text-[lightgrey] cursor-pointer">
-              COLLECTION
+          {navLinks.map((Links, index) => (
+            <li key={index}>
+              <a href={Links.href}>
+                {Links.label}
+                
+              </a>
             </li>
-          </a>
+          ))}
         </ul>
       </nav>
       {menuIsOpen && (
