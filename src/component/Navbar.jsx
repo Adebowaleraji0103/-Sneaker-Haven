@@ -5,7 +5,7 @@ import { useState } from "react";
 function Navbar() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
-    <header className="relative flex justify-between items-center px-[1rem] py-6 w-full text-white font-semibold text-[16px] md:px-[6rem]">
+    <header className="relative flex justify-between items-center px-[1rem] py-6 w-full text-white font-semibold text-[16px] md:px-[6rem] scroll-smooth">
       <div className="flex gap-2 md:gap-3 ">
         <img src="images/adidas.png" alt="" className="hidden md:block" />
         <h2 className="text-[16px] md:text-[25px]">Smart shoe</h2>
