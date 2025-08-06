@@ -27,7 +27,7 @@ function Navbar() {
           <a href="#banner">
             <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
           </a>
-           <a href="#">
+           <a href="#arrival">
             <li className="hover:text-[lightgrey] cursor-pointer">SHOP</li>
           </a>
            <a href="#about">
