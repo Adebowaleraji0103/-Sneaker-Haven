@@ -3,6 +3,13 @@ import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 
 function Navbar() {
+  const navLinks = [
+    { label: "HOME", href: "#banner" },
+    { label: "SHOP", href: "#arrival" },
+    { label: "ABOUT", href: "#about" },
+    { label: "COLLECTION", href: "#collection" },
+  ];
+
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
     <header className="relative flex justify-between items-center px-[1rem] py-6 w-full text-white font-semibold text-[16px] md:px-[6rem] scroll-smooth">
@@ -27,14 +34,16 @@ function Navbar() {
           <a href="#banner">
             <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
           </a>
-           <a href="#arrival">
+          <a href="#arrival">
             <li className="hover:text-[lightgrey] cursor-pointer">SHOP</li>
           </a>
-           <a href="#about">
+          <a href="#about">
             <li className="hover:text-[lightgrey] cursor-pointer">ABOUT</li>
           </a>
-           <a href="#collection">
-            <li className="hover:text-[lightgrey] cursor-pointer">COLLECTION</li>
+          <a href="#collection">
+            <li className="hover:text-[lightgrey] cursor-pointer">
+              COLLECTION
+            </li>
           </a>
         </ul>
       </nav>
@@ -45,14 +54,14 @@ function Navbar() {
             className="text-[24px] transition-all duration-300"
           />
 
-         <ul className="flex flex-col gap-[2rem]">
-           <a href="#banner">
-            <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
-          </a>
-          <li>SHOP</li>
-          <li>ABOUT</li>
-          <li>COLLECTION</li>
-         </ul>
+          <ul className="flex flex-col gap-[2rem]">
+            <a href="#banner">
+              <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
+            </a>
+            <li>SHOP</li>
+            <li>ABOUT</li>
+            <li>COLLECTION</li>
+          </ul>
         </div>
       )}
     </header>
