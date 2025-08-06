@@ -17,10 +17,6 @@ function Navbar() {
         </div>
 
         <ol className="flex flex-col gap-1 md:hidden">
-          <IoMdClose
-            onClick={() => setMenuIsOpen(false)}
-            className="text-[24px] transition-all duration-300"
-          />
           <LuMenu
             onClick={() => setMenuIsOpen(!menuIsOpen)}
             className="text-[20px]"
@@ -38,6 +34,10 @@ function Navbar() {
       </nav>
       {menuIsOpen && (
         <ul className="flex flex-col gap-[1.5rem] text-[14px] py-[2rem] px-[1rem] absolute top-0 left-0 w-[35%] h-[30rem] bg-[#445243] md:hidden">
+          <IoMdClose
+            onClick={() => setMenuIsOpen(false)}
+            className="text-[24px] transition-all duration-300"
+          />
           <a href="#banner">
             <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
           </a>
