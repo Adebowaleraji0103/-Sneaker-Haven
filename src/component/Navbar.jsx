@@ -27,13 +27,13 @@ function Navbar() {
           <a href="#banner">
             <li className="hover:text-[lightgrey] cursor-pointer">HOME</li>
           </a>
-           <a href="#collection">
+           <a href="#">
             <li className="hover:text-[lightgrey] cursor-pointer">SHOP</li>
           </a>
-           <a href="#banner">
+           <a href="#about">
             <li className="hover:text-[lightgrey] cursor-pointer">ABOUT</li>
           </a>
-           <a href="#banner">
+           <a href="#collection">
             <li className="hover:text-[lightgrey] cursor-pointer">COLLECTION</li>
           </a>
         </ul>
