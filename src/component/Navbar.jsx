@@ -18,17 +18,8 @@ function Navbar() {
         </div>
 
         <ol className="flex flex-col gap-1 md:hidden">
-          {menuIsOpen ? (
-    <IoMdClose
-      onClick={() => setMenuIsOpen(false)}
-      className="text-[24px] transition-all duration-300"
-    />
-  ) : (
-    <LuMenu
-      onClick={() => setMenuIsOpen(true)}
-      className="text-[20px] transition-all duration-300"
-    />
-  )}
+          <LuMenu onClick={()=> setMenuIsOpen (!menuIsOpen)} className="text-[20px]"/>
+            
         </ol>
 
         <ul className="hidden md:flex gap-10">
