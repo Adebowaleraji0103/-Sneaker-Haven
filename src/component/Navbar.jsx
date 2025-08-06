@@ -32,7 +32,7 @@ function Navbar() {
 
         <ul className="hidden md:flex gap-10">
           {navLinks.map((Links, index) => (
-            <li key={index}>
+            <li key={index} className="hover:text-[lightgrey] cursor-pointer">
               <a href={Links.href}>
                 {Links.label}
                 
