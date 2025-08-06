@@ -1,6 +1,7 @@
 import { LuMenu } from "react-icons/lu";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+import Footer from "./Footer";
 
 function Navbar() {
   const navLinks = [
@@ -42,7 +43,8 @@ function Navbar() {
         </ul>
       </nav>
       {menuIsOpen && (
-        <div className="flex flex-row-reverse text-[14px] py-[2rem] px-[1rem] absolute top-0 left-0 w-[50%] h-[30rem] bg-[#04251C] md:hidden">
+        <div className="flex flex-col">
+          <div className="flex flex-row-reverse justify-between text-[14px] py-[2rem] px-[1rem] absolute top-0 left-0 w-[50%] h-[30rem] bg-[#04251C] md:hidden">
           <IoMdClose
             onClick={() => setMenuIsOpen(false)}
             className="text-[24px] transition-all duration-300"
@@ -55,6 +57,9 @@ function Navbar() {
               </li>
             ))}
           </ul>
+        </div>
+
+          <Footer/>
         </div>
       )}
     </header>
