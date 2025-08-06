@@ -14,7 +14,7 @@ const Banner = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
-    }, 4000); // change every 4 seconds
+    }, 2000); // change every 2 seconds
 
     return () => clearInterval(timer);
   }, []);
