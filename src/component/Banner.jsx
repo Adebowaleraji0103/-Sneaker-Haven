@@ -39,7 +39,7 @@ const Banner = () => {
         <h1 className="font-bold text-[4rem] leading-18 md:text-[5rem] md:px-10 md:leading-21">
           Make your move more confortable
         </h1>
-        <button className="bg-white py-2 px-4 text-[19px] text-black font-semibold rounded-[13px] hover:bg-[] hover:text-[white] hover:font-bold">
+        <button className="bg-white py-2 px-4 text-[19px] text-black font-semibold rounded-[13px] hover:bg-[#173728] hover:text-[white] hover:border-white">
           Explore more
         </button>
       </div>
