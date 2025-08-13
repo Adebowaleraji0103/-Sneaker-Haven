@@ -3,7 +3,7 @@ function About() {
     <div className="flex flex-col gap-6 px-[2rem] mb-[3rem] border-b-[lightgray] border-b pb-[4rem] md:mb-[5rem] md:pb-[7rem] md:flex md:flex-row-reverse md:justify-center md:items-center md:px-[5rem] md:gap-[10rem]" id="about">
       <div className="flex flex-col gap-6 font-semibold text-[18px] md:w-[400px]">
         <h1 className="text-[33px] text-center md:text-[18px] md:text-left">About us</h1>
-        <h2 className="text-[38px] leading-13 font-bold ">
+        <h2 className="text-[38px] leading-13 font-bold font-sans md:font-serif  ">
           We provide high quality shoes.
         </h2>
         <p>
