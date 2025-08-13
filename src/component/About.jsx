@@ -10,7 +10,7 @@ function About() {
           Step up your style with comfort. This shoe blends quality, durability,
           and sleek design perfect for any walk of life.
         </p>
-        <button className="w-fit bg-black text-white py-2 px-4 rounded-[13px] font-semibold">
+        <button className="w-fit bg-black text-white py-2 px-4 rounded-[13px] font-semibold hover:bg-[white]">
           Explore more
         </button>
       </div>
