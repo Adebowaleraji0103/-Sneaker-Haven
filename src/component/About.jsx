@@ -20,7 +20,7 @@ function About() {
           <img src="images/heroshoe1.png" alt="heroshoe1" className="w-full h-1/2" />
           <img src="images/heroshoe2.png" alt="heroshoe2" className="w-full h-1/2"/>
         </div>
-        <img src="images/herohoe3.png" alt="heroshoe3" className="w-[50%] h-full" />
+        <img src="images/heroshoe3.png" alt="heroshoe3" className="w-[50%] h-full" />
       </div>
     </div>
   );
